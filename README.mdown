@@ -7,5 +7,5 @@ RooAlertView allows you to show a UIAlertView and pass a block to be called as t
 ```
 
 ### TODO
-Fix the static analyzer issue not liking RooAlertView's retain/release of itself.
+Fix the static analyzer issue not liking RooAlertView's retain/release of itself. Would *love* someone to show me a better way to set this up.
 
