@@ -1,9 +1,6 @@
 //
 //  RooAlertView.m
-//  AlertViewTest
-//
 //  Created by Brian Cooke on 11/18/11.
-//  Copyright (c) 2011 roobasoft, LLC. All rights reserved.
 //
 
 #import "RooAlertView.h"
