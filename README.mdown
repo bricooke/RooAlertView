@@ -1,11 +1,11 @@
 RooAlertView allows you to show a UIAlertView and pass a block to be called as the completion block. No more delegates.
 
-```
+```objc
 [RooAlertView showWithTitle:@"Title" message:@"OH HAI, How's it going?" clickedCallback:^(NSInteger clickedButton) {
     NSLog(@"%d", clickedButton);
 } cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", @"Been Better", nil];
 ```
 
-===TODO
+### TODO
 Fix the static analyzer issue not liking RooAlertView's retain/release of itself.
 
